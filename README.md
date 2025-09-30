@@ -5,7 +5,8 @@ This repository contains the Python implementation of the algorithm described in
 
 Description
 
-The algorithm provides a direct, non-iterative method for calculating the exact reciprocal of any integer `n > 1`. It uses the structure of the reciprocal's decimal expansion to algebraically reconstruct the original fraction.
+The algorithm provides a direct, non-iterative method for calculating the exact reciprocal of any integer `n > 1`. The core calculate_reciprocal function uses a single, direct integer division (divmod) to derive N1 and R simultaneously.
+We demonstrate that s = a/(1 − r), algebraically collapses to the exact identity 1/n while applying these components within the geometric series summation formula,
 
 How to Run
 
@@ -14,4 +15,4 @@ How to Run
 3.  The program will prompt you to enter an integer for calculation.
 
 Alternatively, you can run the code directly in your browser using Google Colab:
-https://colab.research.google.com/drive/1Th0gr5DxR6SzQEr-flCh0wHEHQ4NG2Kp?usp=sharing
+https://colab.research.google.com/drive/1VBviU-VtnGbvkv8HvPdGNyC0qIZ0xeh_?usp=sharing

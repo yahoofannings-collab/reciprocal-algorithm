@@ -1,7 +1,8 @@
 # reciprocal-algorithm
 A Python implementation of a non-iterative method for reciprocal computation
 
-This repository contains the Python implementation of the algorithm described in the paper "A Non-Iterative Method for Reciprocal Computation by Exact Error Cancellation.
+This repository contains the Python implementation of the algorithm described in the paper "A Non-Iterative Method for Reciprocal Computation by Exact Error Cancellation". 
+This paper is hosted on zenodo.org
 
 Description
 
